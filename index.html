@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Vincent Portfolio</title>
+    <!----CSS link----->
+    <link rel="stylesheet" href="style.css">
+    <!----Fontawesome CDN Link----->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <script defer src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.135.0/build/three.min.js"></script>
+
+</head>
+<body>
+
+    <div class="hero" >
+        <nav>
+            <img src="./images/FFF.PNG" class="logo">
+            <ul>
+                <li><a href="#info">Home</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#Service">Services</a></li>
+                <li><a href="#Contact">Contact </a></li>
+                <li><a href="#About">About </a></li>
+            </ul>
+            <a href="#" class="btn">Hire Me</a>
+        </nav>
+        <div class="info" id="info">
+            <h1>I am <span>Vincent Ndungu</span></h1>
+            <h1>I'm a Graphic Designer</h1>
+            <p>Welcome to my official Portfolio Website Where I put all<br> my work related to my designs and many more.</p>
+            <a href="Documents/Vincent Ndungu Curriculum Vitae.docx" class="btn">Read Cv</a>
+        </div>
+        <div class="img-box">
+            <img src="./images/laptop.avif" class="back-img">
+            <img src="./images/back1.png" class="man-img">
+        </div>
+        <div class="social">
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-yahoo"></i></a>
+
+        </div>
+    </div>
+    <!----about-->
+    <section class="About" id="About">
+        <div class="main">
+        <img src="./images/me.png">
+        <div class="About-text">
+            <h2>About me</h2>
+            <h5>Graphic &nbsp Designer</h5>
+            <p>I’m a creative person driven by my passion for design. I’m proficient with graphic tools and have an artistic approach towards everything I create.
+
+                I’m also a team player and know how to improve myself when given feedback.</p>
+        </div>
+        </div>
+        <div>
+            <table class="skills-table">
+                <thead>
+                  <tr>
+                    <th>Software</th>
+                    <th>Proficiency</th>
+                    <th>Experience</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Adobe Photoshop</td>
+                    <td>Expert</td>
+                    <td>5 years</td>
+                  </tr>
+                  <tr>
+                    <td>Adobe Illustrator</td>
+                    <td>Advanced</td>
+                    <td>3 years</td>
+                  </tr>
+                  <tr>
+                    <td>Adobe InDesign</td>
+                    <td>Intermediate</td>
+                    <td>2 years</td>
+                  </tr>
+                  <tr>
+                    <td>Sketch</td>
+                    <td>Intermediate</td>
+                    <td>2 years</td>
+                  </tr>
+                  <tr>
+                    <td>Figma</td>
+                    <td>Beginner</td>
+                    <td>1 year</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              
+        </div>
+    </section>
+
+    <!---service-->
+    <div class="Service" id="Service">
+        <div class="title">
+        <h1>Our Services</h1>
+
+        </div>
+        <div class="box">
+            <div class="card">
+                <i class="fas fa-bars"></i>
+                 <h5>CAR BRANDING</h5>
+            
+                <div class="pra">
+                    We brand these cars
+                    <ul>
+                        <li>Toyota Corolla</li>
+                        <li>Honda Civic</li>
+                        <li>Ford Mustang</li>
+                        <li>Chevrolet Camaro</li>
+                        
+                      </ul>
+
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-user"></i>
+                <h5>PRINTING</h5>
+                <div class="pra">
+                    We don't just print we create
+                    <ul>
+                        <li>T-shirts</li>
+                        <li>Hoods</li>
+                        <li>Umbrellas</li>
+                        <li>Caps</li>
+
+
+
+                    </ul>
+                </div>
+
+        </div>
+        <div class="card">
+            <H3>At Work Designing</H3>
+<video width="300" height="280" controls>
+  <source src="video/compressed.mp4" type="video/mp4">
+</video>
+            <div class="pra">
+                <p>Design is not finished until somebody is using it</p>
+            </div>
+    </div>
+    </div>
+    <div class="form" id="Contact">\
+        <h1 style="text-align: center">Contact me</h1>
+
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+          
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+          
+            <button type="submit">Send</button>
+          </form>
+          
+    </div>
+   
+
+    </div>
+    <div>
+    <h3>  &nbsp &nbsp &nbspMy Image map</h3>
+        <img src="/images/image map.jfif" alt="imagemap" usemap="#workmap" >
+
+            <map name="workmap">
+             <area shape="rect" coords="49,27,527,514" alt="Computer" href="https://www.apple.com/ke/macbook-air/">
+             <area shape="rect" coords="555,292,841,524" alt="ipad" href="https://www.apple.com/ke/ipad/">
+             <area shape="rect" coords="846,383,984,521" alt="iphone" href="https://www.apple.com/ke/iphone/">
+           </map>
+
+    </div>
+    <div>
+
+        <footer>
+            <p >&copy; 2023 Vincent website Portfolio</p>
+        </footer>
+    </div>
+    
+    
+<button class="scroll-to-top"><i class="material-icons">arrow_upward</i></button>
+</body>
+</html>
